@@ -18,12 +18,12 @@ We will go ahead with Conv3D architecture instead of CNN+LSTM as the number of p
 Please find below hyper tuning parameters that we experimented with:
   - Batch sizes: 30, 40, 50, 64
   - Epochs: 10, 20, 30
-•	Activation functions: RELU and ELU
-•	Optimizers: SGD, Adam
-•	Learning rates: .001, .0001, .005 
-•	Network Size: 3-layer Conv3D and 4-layer Conv3D  
-•	Sequence length: 12,15,18
-•	Image size: 120*160, 120*120, 100*100, 90*90
+  - Activation functions: RELU and ELU
+  - Optimizers: SGD, Adam
+  - Learning rates: .001, .0001, .005 
+  - Network Size: 3-layer Conv3D and 4-layer Conv3D  
+  - Sequence length: 12,15,18
+  - Image size: 120*160, 120*120, 100*100, 90*90
 
 The final model we arrived at was based on the factors like;
 1.	**Less training times.**
@@ -31,16 +31,16 @@ The final model we arrived at was based on the factors like;
 3.	**Better suited for a TV based applications**
 
 ## Best Model parameters
-•	Batch sizes: 30 
-•	Epochs: 30
-•	Activation functions: RELU 
-•	Optimizers: SGD 
-•	Learning rates: .001 
-•	Network Size: 4-layer Conv3D  
-•	Sequence length: 18
-•	Image size: 90*90
-•	Total parameters: 2,806,149
-•	Total time: 11.12 min
-•	Validation accuracy: 76%
+  - Batch sizes: 30 
+  - Epochs: 30
+  - Activation functions: RELU 
+  - Optimizers: SGD 
+  - Learning rates: .001 
+  - Network Size: 4-layer Conv3D  
+  - Sequence length: 18
+  - Image size: 90*90
+  - Total parameters: 2,806,149
+  - Total time: 11.12 min
+  - Validation accuracy: 76%
 
 
