@@ -27,7 +27,7 @@ Please find below hyper tuning parameters that we experimented with:
 
 The final model we arrived at was based on the factors like;
 1.	**Less training times.**
-2.	**Lowest possible parameters which helps make this model less resource intense **
+2.	**Lowest possible parameters which helps make this model less resource intense**
 3.	**Better suited for a TV based applications**
 
 ## Best Model parameters
