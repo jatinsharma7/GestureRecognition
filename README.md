@@ -16,8 +16,8 @@ We will go ahead with Conv3D architecture instead of CNN+LSTM as the number of p
 
 ## Hyperparameter Tuning 
 Please find below hyper tuning parameters that we experimented with:
-•	Batch sizes: 30, 40, 50, 64 
-•	Epochs: 10, 20, 30
+  - Batch sizes: 30, 40, 50, 64
+  - Epochs: 10, 20, 30
 •	Activation functions: RELU and ELU
 •	Optimizers: SGD, Adam
 •	Learning rates: .001, .0001, .005 
